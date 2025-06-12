@@ -1,1 +1,1 @@
-# correcci-n-recuperatorio-parcial
+# correccion-recuperatorio-parcial
