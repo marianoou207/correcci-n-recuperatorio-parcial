@@ -1,9 +1,9 @@
 def validar_entero(mensaje):
     while True:
         valor = input(mensaje)
-        if valor.isdigit():
+        try:
             return int(valor)
-        else:
+        except ValueError:
             print("Error: ingrese solo números.")
 
 def cargar_stock(INSUMOS:list, DEPOSITOS:list) -> int:
