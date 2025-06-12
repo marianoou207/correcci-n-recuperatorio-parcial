@@ -3,8 +3,6 @@ from funciones import *
 DEPOSITOS = ["Rosario", "cordoba", "salta", "bahia blanca"]
 INSUMOS = ["Arduino UNO", "Sensor de temperatura", "Cable USB", "Display LCD", "Protoboard"]
 
-stock = [[0 for _ in range(len(INSUMOS))] for _ in range(len(DEPOSITOS))]
-
 while True:
     print("Bienvenido al Sistema de Gestión de Insumos Tecnológicos para Escuelas Técnicas")
     print("1. Cargar stock de insumos")
